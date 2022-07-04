@@ -1,0 +1,48 @@
+body {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.flexible-container {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.half-width {
+	width: 50%;
+	padding-left: 20px;
+	padding-top: 50px;
+}
+h1 {
+	font-size: 50px;
+}
+span {
+	color: #FBA24F
+}
+.half-width > img {
+	height: 700px;
+	width: 90%;
+}
+
+#skip-diet-information {
+	margin-top: 15%;
+}
+
+#skip-diet-information > p {
+	padding-bottom: 20px;
+}
+
+.btn {
+	text-decoration: none;
+	margin-top: 15px;
+	color: white;
+	font-size: 1.3em;
+	background-image: linear-gradient(to top right, #FBA24F, #FF1E1E);
+	padding: 8px 20px;
+	border: transparent;
+	border-radius: 30px;
+	box-shadow: 5px 5px 10px #ff5c33;
+}
+
+section {
+	margin-bottom: 25px;
+}
