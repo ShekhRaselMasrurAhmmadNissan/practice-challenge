@@ -1,5 +1,6 @@
 body {
 	font-family: 'Josefin Sans', sans-serif;
+	margin: 0;
 }
 
 .flexible-container {
@@ -14,9 +15,13 @@ body {
 }
 h1 {
 	font-size: 50px;
+	color: #575757;
 }
 span {
 	color: #FBA24F
+}
+.image {
+	align-items: center;
 }
 .half-width > img {
 	height: 700px;
@@ -29,6 +34,7 @@ span {
 
 #skip-diet-information > p {
 	padding-bottom: 20px;
+	color: #828282;
 }
 
 .btn {
@@ -40,9 +46,42 @@ span {
 	padding: 8px 20px;
 	border: transparent;
 	border-radius: 30px;
-	box-shadow: 5px 5px 10px #ff5c33;
+	filter: drop-shadow(0 2px 30px rgba(252, 143, 73, 50%));
 }
 
 section {
 	margin-bottom: 25px;
+	margin-left: 0;
+}
+
+#female-image {
+	height: 500px;
+	width: 500px;
+	margin: 0 auto;
+	padding-left: 50px;
+}
+
+#about-me-information {
+	margin-top: 13%;
+}
+
+#about-me-information > p {
+	padding-bottom: 50px;
+}
+
+#about-me {
+	width: 100%;
+	background: rgba(252, 143, 73, 10%);
+	background-image: url(../images/7.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+.left-oriented {
+	width: 60%;
+	height: 100%;
+}
+
+.left-oriented > p {
+	margin-bottom: 11%;
 }
