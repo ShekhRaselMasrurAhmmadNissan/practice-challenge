@@ -134,7 +134,7 @@ section {
 	border: 2px solid transparent;
 	border-radius: 50px;
 	background-color: #ffffff;
-	box-shadow: 5px 8px 10px 10px rgba(139, 131, 131, 0.534);
+	box-shadow: 2px 2px 5px 5px rgba(139, 131, 131, 0.534);
 }
 
 .recipe-container > h2 {
@@ -144,4 +144,27 @@ section {
 
 .recipe-container>p {
 	color: #18191f;
+}
+
+#subscriber-count {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+
+	margin: 7%;
+	border: 2px solid transparent;
+	border-radius: 50px;
+	background-color: #ffffff;
+	box-shadow: 2px 2px 5px 5px rgba(139, 131, 131, 0.534);
+}
+
+#subscriber-count > .count > h1 {
+	color: #18191F;
+	text-align: center;
+	font-size: 45px;
+}
+
+#subscriber-count>.count>p {
+	color: #18191F;
+	text-align: center;
 }
